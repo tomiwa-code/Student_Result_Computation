@@ -1,0 +1,98 @@
+.uResult {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    display: none;
+
+    .cResult {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        @include totalFlex;
+
+
+        .result {
+            width: 80%;
+            background: $light_txt_color;
+            margin: 0 auto;
+            padding: 10px 15px;
+            border-radius: 4px;
+
+            .closeBtn {
+                margin-bottom: 15px;
+                text-align: right;
+
+                button {
+                    background: $bg_colorII;
+                    @include btnDesign;
+                }
+            }
+
+            .errorText {
+                font-size: 20px;
+                width: 100%;
+                font-family: "SourceRegular";
+                color: $bg_colorII;
+                padding: 10px 15px;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 700;
+                display: none;
+            }
+    
+    
+            table {
+                width: 100%;
+                border-collapse: collapse;
+    
+                th {
+                    background: $bg_colorII;
+                    padding: 15px 15px;
+                    color: $light_txt_color;
+                    font-family: "SourceRegular";
+                    text-align: left;
+                    font-size: 13px;
+                }
+                
+                th:first-child {
+                    border-radius: 5px 0 0 0;
+                }
+                th:last-child {
+                    border-radius: 0 5px 0 0;
+                }
+    
+                tr {
+    
+                    td {
+                        text-align: left;
+                        padding: 15px;
+                        font-family: "SourceRegular";
+                        color: $main_Text_color;
+                        text-transform: uppercase;
+                        font-weight: 500;
+                        font-size: 12px;
+
+                        button {
+                            background: $bg_colorII;
+                            @include btnDesign;
+                            font-size: 12px;
+
+                            &.active {
+                                background: $main_Backg;
+                                color: $bg_colorII;
+                                pointer-events: none;
+
+                            }
+                        }
+                    }
+                }
+                tr:not(:last-child) {
+                    border-bottom: 1px solid $main_Backg
+                }
+            }
+        }
+    }
+}

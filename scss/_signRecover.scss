@@ -1,0 +1,308 @@
+.main-Container {
+    @include md-12;
+    
+
+    .container {
+        @include container;
+
+        .signImg {
+            @include md-6; 
+            overflow: hidden;
+            
+            div {
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .caro1 {
+                background-image: url("../../img/caro1.jpg");
+                background-position: 60% 50%;
+                position: relative;
+
+                .quotesContainer {
+                    position: absolute;
+                    bottom: 20%;
+                    right: 6%;
+                    width: 300px;
+                    padding: 10px 30px;
+                    border-radius: 4px;
+                    height: auto;
+                    background: rgba(139, 63, 63, 0.8);
+                    text-align: center;
+
+                    .quotes {
+                        margin-bottom: 10px;
+
+                        h3 {
+                            line-height: 25px;
+                            font-family: "SourceRegular";
+                            color: $light_txt_color;
+                            text-align: left;
+                            letter-spacing: 0.7px;
+                        }
+                    }
+
+                    .quoteBy {
+
+                        p {
+                            font-size: 12px;
+                            font-family: "SourceRegular";
+                            text-align: left;
+                            color: $light_txt_color;
+                        }
+                    }
+                }
+            }
+
+            .caro2 {
+                background-image: url("../../img/caro2.jpg");
+                background-position: center;
+                position: relative;
+
+                .quotesContainer {
+                    position: absolute;
+                    top: 15%;
+                    right: 6%;
+                    width: 300px;
+                    padding: 10px 30px;
+                    border-radius: 4px;
+                    height: auto;
+                    background: rgba(0,0,0,0.6);
+                    text-align: center;
+
+                    .quotes {
+                        margin-bottom: 10px;
+
+                        h3 {
+                            line-height: 25px;
+                            font-family: "SourceRegular";
+                            color: $light_txt_color;
+                            text-align: left;
+                            letter-spacing: 0.7px;
+                        }
+                    }
+
+                    .quoteBy {
+
+                        p {
+                            font-size: 12px;
+                            font-family: "SourceRegular";
+                            text-align: left;
+                            color: $light_txt_color;
+                        }
+                    }
+                }
+            }
+
+            .caro3 {
+                background-image: url("../../img/caro3.jpg");
+                background-position: center;
+                position: relative;
+
+                .quotesContainer {
+                    position: absolute;
+                    bottom: 10%;
+                    right: 10%;
+                    width: 250px;
+                    padding: 10px 30px;
+                    border-radius: 4px;
+                    height: auto;
+                    background: rgba(255, 255, 255, 0.8);
+                    text-align: center;
+
+                    .quotes {
+                        margin-bottom: 10px;
+
+                        h3 {
+                            line-height: 25px;
+                            font-family: "SourceRegular";
+                            color: $main_Text_color;
+                            text-align: left;
+                            letter-spacing: 0.7px;
+                        }
+                    }
+
+                    .quoteBy {
+
+                        p {
+                            font-size: 12px;
+                            font-family: "SourceRegular";
+                            text-align: left;
+                            color: $main_Text_color;
+                        }
+                    }
+                }
+            }
+
+            .caro4 {
+                background-image: url("../../img/caro4.jpg");
+                background-position: center;
+                position: relative;
+
+                .quotesContainer {
+                    position: absolute;
+                    bottom: 10%;
+                    right: 6%;
+                    width: 250px;
+                    padding: 10px 30px;
+                    border-radius: 4px;
+                    height: auto;
+                    background: rgba(0,0,0,0.6);
+                    text-align: center;
+
+                    .quotes {
+                        margin-bottom: 10px;
+
+                        h3 {
+                            line-height: 25px;
+                            font-family: "SourceRegular";
+                            color: $light_txt_color;
+                            text-align: left;
+                            letter-spacing: 0.7px;
+                        }
+                    }
+
+                    .quoteBy {
+
+                        p {
+                            font-size: 12px;
+                            font-family: "SourceRegular";
+                            text-align: left;
+                            color: $light_txt_color;
+                        }
+                    }
+                }
+            }
+        }
+
+        .signIn {
+            background: $light_txt_color;
+            @include md-6;
+            @include totalFlex;
+
+            .siginIn-Form {
+
+                .img {
+                    width: 100%;
+                    text-align: center;
+                    img {
+                        max-width: 50%;
+                        margin-bottom: 20px;
+                    }
+                }
+
+                .text {
+                    text-align: center;
+                    margin-bottom: 50px;
+
+                    p {
+                        font-size: 15px;
+                        color: $secondary_txt_color;
+                        font-family: "SourceRegular";
+                    }
+                }
+
+                form {
+                    position: relative;
+
+                    label {
+                        position: absolute;
+                        font-size: 15px;
+                        font-family: "SourceRegular";
+                        bottom: 15px;
+                        margin-left: 20px;
+                        color: $secondary_txt_color;
+                        pointer-events: none;
+                        transition: all 0.3s ease;
+
+                            &.slideUp {
+                                top: -8px;
+                                background: $light_txt_color;
+                                height: 15px;
+                                font-size: 13px;
+                                color: $bg_colorII;
+                            }
+                    }
+
+                    input {
+                        width: 100%;
+                        padding: 15px 20px;
+                        border-radius: 4px;
+                    }
+
+                    input:focus {
+                        outline: none;
+
+                    }
+
+                    .input {
+                        position: relative;
+                        margin-bottom: 30px;
+
+                        input  {
+                            border: 1px solid $bg_colorII;
+                            font-size: 15px;
+                        }
+
+                        input.error {
+                            border: 1px solid red;
+                        }
+
+                        p {
+                            display: none;
+                            position: absolute;
+                            font-family: "SourceBold";
+                            font-size: 12px;
+                            color: red;
+                            padding: 5px;
+                        }
+
+                        i {
+                            position: absolute;
+                            top: 40%;
+                            right: 3%;
+                            transform: translate(-50%,-20%);
+                            color: $secondary_txt_color;
+                            cursor: pointer;
+
+                            &.active {
+                                color: $bg_colorII;
+                            }
+                        }
+                    }                    
+
+                    .fpass {
+                        float: right;
+                        margin-bottom: 20px;
+
+                        a {
+                            font-family: "SourceRegular";
+                            font-size: 15px;
+                            color: $bg_colorII;
+                            text-decoration: none;
+                        }
+                    }
+
+                    .login {
+
+                        input {
+                            font-size: 15px;
+                            font-family: "SourceRegular";
+                            color: $light_txt_color;
+                            background: $bg_colorII;
+                            border-radius: 4px;
+                            cursor: pointer;
+                            border: none;
+
+                            &:hover {
+                                background: $darkBg_colorII;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

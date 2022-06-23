@@ -1,0 +1,257 @@
+.bodyDetail {
+    width: 75vw;
+    background: $bg_color;
+    @include totalFlex;
+    margin-left: 25%;
+    overflow-x: hidden;
+    position: relative;
+
+    .mainDetailsContainer {
+        @include centralize;
+        width: 80%;
+
+        .mapDetails {
+            width: 100%;
+            @include totalFlex;
+            flex-direction: column;
+            @include bMargin20;
+            
+            img {
+                width: 20%;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 70px;
+                color: $bg_colorII;
+                font-family: "SourceBold";
+            }
+
+            h2 {
+                font-size: 25px;
+                font-family: "SourceBold";
+                color: $secondary_txt_color;
+            }
+
+            p {
+                font-size: 20px;
+                font-family: "SourceBold";
+                color: $secondary_txt_color;
+            }
+        }
+        .desc {
+            width: 60%;
+            margin: 0 auto;
+
+            p {
+                font-size: 15px;
+                font-family: "SourceRegular";
+                text-align: justify;
+            }
+        }
+    }
+
+    .info {
+        @include totalFlex;
+        flex-direction: column;
+
+        img {
+            max-width: 25%;
+            color: $secondary_txt_color;
+        }
+
+        h1 {
+            font-family: "SourceBold";
+            font-size: 50px;
+            color: $main_Text_color;
+        }
+
+        p {
+            font-size: 16px;
+            font-family: "SourceBold";
+            color: $bg_colorII;
+        }
+    }
+
+    .detailContainer {
+        margin-top: 200px;
+        margin-bottom: 50px;
+
+        &.stud {
+            display: none;
+        }
+
+        .dresult {
+
+            .schoolSemester {
+                display: none;
+            }
+            
+            .session {
+                @include bMargin20;
+                width: 100%;
+                @include totalFlex;
+                justify-content: space-between;
+                background: $light_txt_color;
+
+                h1 {
+                    text-align: center;
+                    padding: 10px 15px;
+                    border-radius: 5px;
+                    color: $bg_colorII;
+                    font-family: "SourceBold";
+                    font-size: 14px;
+
+                    span {
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .fail {
+                background: $light_txt_color;
+                border-radius: 5px;
+                margin-bottom: 15px;
+                display: none;
+
+                table {
+                    width: 100%;
+
+                    tr {
+
+                        td {
+                            text-align: left;
+                            padding: 15px;
+                            font-family: "SourceRegular";
+                            color: red;
+                            text-transform: uppercase;
+                            font-weight: 500;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+            .result {
+                background: $light_txt_color;
+                border-radius: 5px;
+            
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+    
+                    th {
+                        background: $bg_colorII;
+                        padding: 15px 15px;
+                        color: $light_txt_color;
+                        font-family: "SourceRegular";
+                        text-align: left;
+                        font-size: 13px;
+                    }
+                    
+                    th:first-child {
+                        border-radius: 5px 0 0 0;
+                    }
+                    th:last-child {
+                        border-radius: 0 5px 0 0;
+                    }
+    
+                    tr {
+    
+                        td {
+                            text-align: left;
+                            padding: 15px;
+                            font-family: "SourceRegular";
+                            color: $main_Text_color;
+                            text-transform: uppercase;
+                            font-weight: 500;
+                            font-size: 12px;
+                        }
+                    }
+                    tr:not(:last-child) {
+                        border-bottom: 1px solid $main_Backg
+                    }
+                }
+            }
+
+            .resultstatus {
+                width: 100%;
+                @include totalFlex;
+                justify-content: space-between;
+                padding: 15px;
+                background: $light_txt_color;
+                border-radius: 0 0 5px 5px;
+                @include bMargin20;
+
+
+                div {
+                    font-family: "SourceBold";
+                    color: $bg_colorII;
+                    font-size: 15px
+                }
+            }
+        }
+        
+        .outergradesystem {
+            width: 100%;
+            display: flex;
+            position: relative;
+            // padding-left: calc(100% - 300px);
+
+            .printResult {
+                width: calc(100% - 300px);
+                position: relative;
+
+                button {
+                    background: $bg_colorII;
+                    @include btnDesign;
+                    @include centralize;
+
+                    &:hover {
+                        background: $darkBg_colorII;
+                    }
+                }
+            }
+
+            .gradesystem {
+                width: 300px;
+                background: $light_txt_color;
+                border-radius: 5px;
+                @include lrPad30;
+                padding-top: 15px;
+                padding-bottom: 15px;
+
+                .gd {
+                    text-align: center;
+                    @include tbPad;
+
+                    h1 {
+                        font-size: 13px;
+                        font-family: "SourceRegular";
+                        color: $bg_colorII;
+                    }
+                }
+
+                table {
+                    width: 100%;
+                    padding-left: 10px;
+
+                    tr {
+
+                        td {
+                            font-size: 12px;
+                            font-family: "SourceRegular";
+                            color: $main_Text_color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.toast-message{
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px !important;
+}

@@ -1,0 +1,690 @@
+.main-Containers {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background: $bg_color;
+
+
+    &.active {
+       height: auto;     
+    }
+    
+    .lecturerSideBar {
+        width: 25vw;
+        height: 100%;
+        background: $bg_colorII;
+        @include padTop30;
+        position: fixed;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+        .mapolyDetails {
+            @include lrPad30;
+            @include miniFlex;
+            @include bMargin20;
+
+            img {
+                width: 20%;
+                margin-right: 10px;
+            }
+
+            .details {
+                width: 80%;
+
+                h3 {
+                    text-transform: uppercase;
+                    color: $light_txt_color;
+                    font-family: "SourceBold";
+                    line-height: 20px;
+                }
+            }
+        }
+
+        .lecturerDetails {
+            @include lrPad30;
+            @include miniFlex;
+            @include bMargin20;
+
+            .holdImage {
+                width: 52px;
+                height: 52px;
+                margin-right: 10px;
+
+                img {
+                    width: 52px;
+                    height: 52px;
+                    object-fit: cover;
+                    border-radius: 6px;
+                }
+            }
+
+            .details {
+                width: 80%;
+                
+                .name {
+                    font-size: 15px;
+                    font-family: "SourceBold";
+                    color: $light_txt_color;
+                    text-transform: uppercase;     
+                }
+
+                .matricNo {
+                    font-size: 15px;
+                    font-family: "SourceBold";
+                    color: $main_Backg;
+                }
+
+                .level {
+                    font-size: 15px;
+                    font-family: "SourceSemiBold";
+                    color: $secondary_txt_color;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .lecturerDash {
+
+            .section {
+                @include bMargin20;
+
+
+                h3 {
+                    @include lrPad30;
+                    color: $secondary_txt_color;
+                    font-family: "SourceRegular";
+                    font-size: 17px;
+                    @include bMargin10;
+                }
+
+                .iconDept {
+                    @include lrPad30;
+                    @include tbPad;
+
+                    &.active {
+                        border-left: 6px solid $light_txt_color;
+                    }
+
+                    .text {
+                        @include miniFlex;
+                        position: relative;
+
+                        span {
+                            font-size: 20px;
+                            color: $main_Backg;
+                            @include rMargin20;
+                        }
+                        
+                        li {
+                            list-style: none;
+
+                            a {
+                                text-decoration: none;
+                                font-size: 20px;
+                                font-family: "SourceSemiBold";
+                                color: $main_Backg
+                            }
+                            a.active {
+                                color: $light_txt_color;
+                            }
+
+                        }
+                        
+                        .dept {
+                            font-size: 20px;
+                            font-family: "SourceSemiBold";
+                            color: $main_Backg
+                         }
+                    }
+                    .text.active {
+
+                        span, h1 {
+                            color: $light_txt_color;
+                        }
+                       
+                    }
+
+                    .tmust {
+                        span, .dept {
+                            color: $bg_color;
+                        }
+                    }
+                }
+
+                .levels {
+                    @include bMargin20;
+
+                    .second {
+                        position: absolute;
+                        left: 8px;
+                    }
+
+                    li {
+                        padding-left: 80px;
+                        list-style-type: none;
+
+                        a {
+                            color: $secondary_txt_color;
+                            text-decoration: none;
+                            font-family: "SourceRegular";
+                            font-size: 15px;
+                        }
+                        a.active {
+                            color: $light_txt_color;
+                        }
+                    }
+                }
+            }
+        }
+
+        .logout {
+            bottom: 0;
+            width: 100%;
+            background: $light_txt_color;
+            border-radius: 10px 10px 0 0;
+            @include miniFlex;
+            justify-content: space-between;
+            padding: 15px 20px;
+
+            h2 {
+                color: $bg_colorII;
+                font-family: "SourceBold";
+                font-size: 18px;
+            }
+
+            span {
+                font-size: 25px;
+                color: $bg_colorII;
+                cursor: pointer;
+            }
+        }
+
+        &.notClicked {
+            pointer-events: none;
+        }
+    }
+
+    .bodyDetails {
+        width: 75vw;
+        height: inherit;
+        margin-left: 25vw;
+        position: relative;
+
+        .detailContainer {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 30px;
+            padding-bottom: 40px;
+            display: none;
+            
+    
+            .session {
+                @include tsPad;
+                background: $light_txt_color;
+                @include totalFlex;
+                justify-content: space-between;
+                @include bMargin20;
+                border-radius: 4px;
+                text-transform: capitalize;
+    
+                h1 {
+                    font-size: 13px;
+                    font-family: "SourceRegular";
+                    color: $main_Text_color;
+                }
+            }
+            .session.admin {
+                justify-content: center;
+    
+                h1 {
+                    margin: 0 15px
+                }
+            }
+    
+            .superadmin {
+                display: flex;
+                justify-content: space-between;
+    
+                .session {
+                    width: calc(100% - 300px);
+                    height: 40px;
+                    justify-content: center;
+    
+                    h1 {
+                        margin: 0 20px;
+                    }
+                }
+    
+                .changeSession {
+                    @include totalFlex;
+                    width: 300px;
+                    height: 40px;
+                    justify-content: right;
+    
+                    h3 {
+                        font-family: "SourceBold";
+                        font-size: 13px;
+                        color: $main_Text_color;
+                        margin-right: 20px;
+                    }
+    
+                    .year {
+    
+                        select {
+                            background: $light_txt_color;
+                            border-radius: 4px;
+                            padding: 10px;
+                            border: none;
+                            font-family: "SourceRegular";
+                            cursor: pointer;
+    
+                            option {
+                                font-family: "SourceRegular";
+                            }
+                        }
+                        select:focus {
+                            outline: none
+                        }
+    
+                        button {
+                            @include btnDesign;
+                            background: $bg_colorII;
+                            display: none;
+                        }
+                    }
+                }
+    
+            }
+    
+            .updateInfo {
+                @extend .session;
+    
+                .lInfo {
+                    display: flex;
+                    justify-content: space-between;
+                    width: calc(100% - 450px);
+    
+                    h2 {
+                        @extend h1
+                    }
+                }
+    
+                .search {
+                    width: 450px;
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    justify-content: center;
+    
+                    .searchbox {
+                        position: relative;
+                        width: calc(100% - 50px);
+                        padding: 0 0 0 30px;
+    
+                        span {
+                            font-family: "SourceRegular";
+                            font-size: 15px;
+                            color: $secondary_txt_color;
+                            font-weight: 200;
+                        }
+    
+                        input {
+                            position: absolute;
+                            display: none;
+                            width: calc(100% - 30px);
+                            border: 1px solid $main_Backg;
+                            border-radius: 4px 0 0 4px;
+                            outline: none;
+                            padding: 10px 15px;
+                            background: $light_txt_color;
+                            left: 30px;
+                            top: -9px;
+                        }
+                    }
+    
+                    button.searchBtn {
+                        width: 50px;
+                        height: 37px;
+                        background: transparent;
+                        color: $bg_colorII;
+                        border-radius: 0 4px 4px 0;
+                        border: none;
+                        cursor: pointer;
+                        font-size: 15px;
+    
+                        &.active {
+                            background: $bg_colorII;
+                            color: #fff;
+                        }
+    
+                        i {
+                            
+                            &.active::before {
+                                content: "\f00d";
+                            }
+                        }
+    
+                    }
+                }
+            }
+    
+            .updateInfo.superadmin {
+                justify-content: center;
+            }
+    
+            .scoringTable {
+                background: $light_txt_color;
+    
+                .calcGp {
+                    display: none;
+                }
+    
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+        
+                        th {
+                            background: $bg_colorII;
+                            padding: 15px 15px;
+                            color: $light_txt_color;
+                            font-family: "SourceRegular";
+                            text-align: left;
+                            font-size: 13px;
+                        }
+                        
+                        th:first-child {
+                            border-radius: 5px 0 0 0;
+                        }
+                        th:last-child {
+                            border-radius: 0 5px 0 0;
+                        }
+        
+                        tr {
+        
+                            td {
+                                text-align: left;
+                                padding: 15px;
+                                font-family: "SourceRegular";
+                                color: $main_Text_color;
+                                text-transform: uppercase;
+                                font-weight: 500;
+                                font-size: 12px;
+    
+                                input {
+                                    // display: none;
+                                    width: 40px;
+                                    padding: 5px;
+                                    text-align: center;
+                                    border: 1px solid $bg_colorII;
+                                    background: $main_Backg;
+                                    color: $main_Text_color;
+                                    border-radius: 4px;
+                                    font-family: "SourceBold";
+                                    pointer-events: none;
+    
+                                    // &:focus {
+                                    //     outline: none;
+                                    // }
+                                }
+    
+                                button {
+                                    width: 100px;
+                                    border: none;
+                                    text-transform: uppercase;
+                                    color: $light_txt_color;
+                                    background: $bg_colorII;
+                                    padding: 10px 15px;
+                                    border-radius: 4px;
+                                    font-size: 12px;
+                                    cursor: pointer;
+                                }
+                                button:hover {
+                                    background: $darkBg_colorII;
+                                }
+    
+                                button.uploaded {
+                                    background: $main_Backg;
+                                    color: $bg_colorII;
+                                    pointer-events: none;
+    
+                                    &:hover {
+                                        cursor: not-allowed;
+                                    }
+                                }
+                            }
+                        }
+                        tr:not(:last-child) {
+                            border-bottom: 1px solid $main_Backg
+                        }
+                }
+            }
+        }
+
+        .mainDetailsContainer {
+            @include centralize;
+            width: 80%;
+
+            .mapDetails {
+                width: 100%;
+                @include totalFlex;
+                flex-direction: column;
+                @include bMargin20;
+                
+                img {
+                    width: 20%;
+                }
+
+                h1 {
+                    text-align: center;
+                    font-size: 70px;
+                    color: $bg_colorII;
+                    font-family: "SourceBold";
+                }
+
+                h2 {
+                    font-size: 25px;
+                    font-family: "SourceBold";
+                    color: $secondary_txt_color;
+                }
+
+                p {
+                    font-size: 20px;
+                    font-family: "SourceBold";
+                    color: $secondary_txt_color;
+                }
+            }
+            .desc {
+                width: 60%;
+                margin: 0 auto;
+
+                p {
+                    font-size: 15px;
+                    font-family: "SourceRegular";
+                    text-align: justify;
+                }
+            }
+        }
+
+        .detailsContainer {
+            @include centralize;
+            width: 80%;
+            display: none;
+        }
+
+        .scoreStudent {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6);
+            display: none;
+
+            .scores {
+                @include centralize;
+                left: 36%;
+                background: $light_txt_color;
+                border-radius: 5px;
+                padding: 30px;
+                width: 400px;
+                @include totalFlex;
+
+                form {
+                    width: 100%;
+
+                    .closeit {
+                        width: 100%;
+                        margin-bottom: 10px;
+
+                        .close {
+                            margin-left: calc(100% - 40px);
+                            width: 40px;
+                            padding: 5px 0;
+                            text-align: center;
+                            box-sizing: border-box;
+                            font-size: 18px;
+                            background: $bg_colorII;
+                            color: $light_txt_color;
+                            border-radius: 4px;
+                            cursor: pointer;
+                        }
+                    }
+
+
+                    div {
+                        margin-bottom: 10px;
+
+                        p {
+                            font-family: "SourceRegular";
+                            font-size: 14px;
+                            color: $bg_colorII;
+                            margin-bottom: 5px;
+                        }
+
+                        input.input {
+                            width: 100%;
+                            border-radius: 4px;
+                            padding: 10px 15px;
+                            color: $main_Text_color;
+                            font-family: "SourceRegular";
+
+                            &.error {
+                                border: 1px solid red;
+                            }
+                        }
+                    }
+
+                    div:not(:last-child) {
+                        margin-bottom: 10px;
+                    }
+
+                    .stuFullname, .stuMatric {
+                        input {
+                            background: $main_Backg;
+                            border: none;
+                        }
+                    }
+
+                    .sScore {
+
+                        input {
+                            border: 1px solid $secondary_txt_color;
+
+                            &:focus {
+                                outline: none;
+                            }
+                        }
+                    }    
+
+                    .submitScore {
+                        width: 100%;
+                        text-align: center;
+                        margin-top: 20px;
+
+                        input {
+                            width: 120px;
+                            padding: 13px 0;
+                            font-size: 15px;
+                            border-radius: 4px;
+                            background: $bg_colorII;
+                            color: $light_txt_color;
+                            font-family: "SourceRegular";
+                            border: none;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+
+        .msgBoxBcg{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            background: rgba(0,0,0,0.5);
+            display: none;
+    
+            .msgBox {
+                @include centralize;
+                left: 36%;
+                width: 300px;
+                height: 150px;
+                background: $light_txt_color;
+                border-radius: 5px;
+                z-index: 2;
+    
+                .msg {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100px;
+    
+                    h3 {
+                        color: $main_Text_color;
+                        font-family: "SourceRegular";
+                    }
+                }
+            }
+    
+            .btn {
+                text-align: center;
+    
+                button {
+                    width: 80px;
+                    padding: 10px;
+                    background: $bg_colorII;
+                    color: $light_txt_color;
+                    font-size: 15px;
+                    font-family: "SourceBold";
+                    border-radius: 4px;
+                    outline: none;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .info {
+            @include totalFlex;
+            flex-direction: column;
+    
+            img {
+                max-width: 17%;
+                color: $secondary_txt_color;
+            }
+    
+            h1 {
+                font-family: "SourceBold";
+                font-size: 35px;
+                color: $main_Text_color;
+            }
+    
+            p {
+                font-size: 12px;
+                font-family: "SourceBold";
+                color: $bg_colorII;
+            }
+        }
+    }
+}

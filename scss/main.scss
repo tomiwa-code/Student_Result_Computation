@@ -1,0 +1,66 @@
+@import "_variables";
+@import "_signRecover";
+@import "_studentgui";
+@import "_yearsemester";
+@import "_lecturergui";
+@import "_settings";
+@import "_admingui";
+
+html {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rmsgContainer {
+    position: fixed;
+    z-index: 999999;
+    background: #27ae60;
+    top: 12px;
+    right: 12px;
+    border-radius: 4px;
+    opacity: 0.9;
+    display: none;
+    cursor: pointer;
+
+    .rmsg {
+        @include miniFlex;
+        justify-content: space-between;
+        width: 300px;
+        padding: 15px 15px;
+        
+        .successbell {
+
+            span {
+                font-size: 20px;
+                color: $light_txt_color;
+
+                &.active:before {
+                    content: "\f0a2";
+                }
+            }   
+        }
+
+        .notymsg {
+
+            p {
+                font-size: 14px;
+                font-family: "SourceRegular"; 
+                color: $light_txt_color;
+                text-transform: uppercase;
+             }
+        }
+
+        .closenotyBtn {
+
+            button {
+                @include btnDesign;
+                background: transparent;  
+              }
+        }
+    }
+}

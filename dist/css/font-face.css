@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "SourceBold";
+    src: url(../../fonts/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+    font-family: "SourceRegular";
+    src: url(../../fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: "SourceSemiBold";
+    src: url(../../fonts/SourceSansPro-Semibold.otf);
+}

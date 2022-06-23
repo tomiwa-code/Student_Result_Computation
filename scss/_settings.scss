@@ -1,0 +1,228 @@
+.bodySettings {
+    width: 75vw;
+    height: 100vh;
+    background: $bg_color;
+    @include totalFlex;
+    margin-left: 25%;
+    overflow-x: hidden;
+
+    .detailContainer {
+        width: 80%;
+        background: $light_txt_color;
+        padding: 50px 30px;
+        border-radius: 4px;
+        @include totalFlex;
+        flex-direction: column;
+
+        .setrecord {
+            @include miniFlex;
+            align-items: left;
+            flex-direction: column;
+            margin-bottom: 15px;
+
+            h3 {
+                font-family: "SourceBold";
+                font-size: 16px;
+                color: $bg_colorII;
+                margin-right: 20px;
+            }
+
+            .csession {
+                @include miniFlex;
+                width: 330px;
+                margin-bottom: 15px;
+
+                input {
+                    width: 135px;
+                    border: 1px solid $bg_colorII;
+                    border-radius: 4px;
+                    padding: 10px 15px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+
+            .csemester {
+                @include miniFlex;
+                width: 330px;
+                margin-bottom: 20px;
+
+                select {
+                    background: $main_Backg;
+                    border-radius: 4px;
+                    padding: 8px;
+                    border: none;
+                    font-family: "SourceRegular";
+    
+                    option {
+                        font-family: "SourceRegular";
+                    }
+                }
+                select:focus {
+                    outline: none
+                }
+            }
+
+            .setSession {
+                background: $bg_colorII;
+                @include btnDesign;
+            }
+
+        }
+    }
+}
+
+body {
+    background: $bg_color;
+}
+
+.mainContainers {
+    width: 100%;
+    height: 100vh;
+    @include totalFlex;
+    overflow-x: hidden;
+
+    .coreRegContainer {
+        width: 40%;
+        padding: 20px 30px;
+        background: $light_txt_color;
+        border-radius: 4px;
+        @include miniFlex;
+        flex-direction: column;
+
+        .cheader {
+            width: 350px;
+            text-align: center;
+
+            p {
+                font-size: 2em;
+                color: $bg_colorII;
+                font-family: "SourceRegular";
+                text-transform: capitalize;
+                font-weight: 700;
+            }
+        }
+
+        .coreReg {
+            padding: 10px;
+            // display: none;
+
+            .cInput {
+                width: 350px;
+                p {
+                    margin-bottom: 5px;
+                    font-family: "SourceRegular";
+                    font-size: 14px;
+                }
+
+                input {
+                    width: 350px;
+                    border: 1px solid $main_Backg;
+                    border-radius: 4px;
+                    padding: 10px 15px;
+                    margin-bottom: 10px;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+
+            .cBtn {
+
+                button{
+                width: 350px;
+                @include btnDesign;
+                background: $bg_colorII;
+                }
+            }
+        }
+
+        .coreList {
+            padding: 10px;
+            display: none;
+
+            .sems {
+                width: 350px;
+                @include totalFlex;
+
+                p {
+                    padding: 10px;
+                    font-family: "SourceRegular";
+                    font-size: 15px;
+                    text-transform: capitalize;
+                }
+            }
+
+            table {
+                width: 350px;
+
+                tr {
+    
+                    td {
+                        text-align: left;
+                        padding: 7px;
+                        font-family: "SourceRegular";
+                        color: $main_Text_color;
+                        text-transform: uppercase;
+                        font-weight: 500;
+                        font-size: 13px;
+
+                        button {
+                            background: $bg_colorII;
+                            @include btnDesign;
+                            font-size: 12px;
+
+                            &.active {
+                                background: $main_Backg;
+                                color: $bg_colorII;
+                                pointer-events: none;
+
+                            }
+                        }
+                    }
+                }
+                tr:not(:last-child) {
+                    border-bottom: 1px solid $main_Backg
+                }
+            }
+
+            .sBtn {
+                width: 350px;
+                text-align: center;
+                margin-top: 15px;
+
+                button {
+                    background: $bg_colorII;
+                    @include btnDesign;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-family: "SourceRegular";
+                    color: $bg_colorII;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .errMsg {
+
+            .sMsg {
+                margin: 10px;
+                p {
+                    font-family: "SourceRegular";
+                    color: $bg_colorII;
+                    font-size: 20px;
+                    color: green;
+                }
+            }
+            display: none;
+        }
+    }
+}
