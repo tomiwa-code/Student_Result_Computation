@@ -10,4 +10,4 @@ result to the student and carry overs if there is any. The application works ind
 it keeps calculating the student gpa and cgpa regardless of who uploads first and result can
 be revoke by the superadmin or management
 
-## How to imstall
+## How to install
