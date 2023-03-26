@@ -2,31 +2,26 @@
   width: 100vw;
   height: 100vh;
 }
-
 .main-Container .container {
   width: 100vw;
   height: 100vh;
   display: flex;
 }
-
 .main-Container .container .signImg {
   width: 50%;
   overflow: hidden;
 }
-
 .main-Container .container .signImg div {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .main-Container .container .signImg .caro1 {
   background-image: url("../../img/caro1.jpg");
   background-position: 60% 50%;
   position: relative;
 }
-
 .main-Container .container .signImg .caro1 .quotesContainer {
   position: absolute;
   bottom: 20%;
@@ -38,11 +33,9 @@
   background: rgba(139, 63, 63, 0.8);
   text-align: center;
 }
-
 .main-Container .container .signImg .caro1 .quotesContainer .quotes {
   margin-bottom: 10px;
 }
-
 .main-Container .container .signImg .caro1 .quotesContainer .quotes h3 {
   line-height: 25px;
   font-family: "SourceRegular";
@@ -50,20 +43,17 @@
   text-align: left;
   letter-spacing: 0.7px;
 }
-
 .main-Container .container .signImg .caro1 .quotesContainer .quoteBy p {
   font-size: 12px;
   font-family: "SourceRegular";
   text-align: left;
   color: #fff;
 }
-
 .main-Container .container .signImg .caro2 {
   background-image: url("../../img/caro2.jpg");
   background-position: center;
   position: relative;
 }
-
 .main-Container .container .signImg .caro2 .quotesContainer {
   position: absolute;
   top: 15%;
@@ -75,11 +65,9 @@
   background: rgba(0, 0, 0, 0.6);
   text-align: center;
 }
-
 .main-Container .container .signImg .caro2 .quotesContainer .quotes {
   margin-bottom: 10px;
 }
-
 .main-Container .container .signImg .caro2 .quotesContainer .quotes h3 {
   line-height: 25px;
   font-family: "SourceRegular";
@@ -87,20 +75,17 @@
   text-align: left;
   letter-spacing: 0.7px;
 }
-
 .main-Container .container .signImg .caro2 .quotesContainer .quoteBy p {
   font-size: 12px;
   font-family: "SourceRegular";
   text-align: left;
   color: #fff;
 }
-
 .main-Container .container .signImg .caro3 {
   background-image: url("../../img/caro3.jpg");
   background-position: center;
   position: relative;
 }
-
 .main-Container .container .signImg .caro3 .quotesContainer {
   position: absolute;
   bottom: 10%;
@@ -112,11 +97,9 @@
   background: rgba(255, 255, 255, 0.8);
   text-align: center;
 }
-
 .main-Container .container .signImg .caro3 .quotesContainer .quotes {
   margin-bottom: 10px;
 }
-
 .main-Container .container .signImg .caro3 .quotesContainer .quotes h3 {
   line-height: 25px;
   font-family: "SourceRegular";
@@ -124,20 +107,17 @@
   text-align: left;
   letter-spacing: 0.7px;
 }
-
 .main-Container .container .signImg .caro3 .quotesContainer .quoteBy p {
   font-size: 12px;
   font-family: "SourceRegular";
   text-align: left;
   color: #222;
 }
-
 .main-Container .container .signImg .caro4 {
   background-image: url("../../img/caro4.jpg");
   background-position: center;
   position: relative;
 }
-
 .main-Container .container .signImg .caro4 .quotesContainer {
   position: absolute;
   bottom: 10%;
@@ -149,11 +129,9 @@
   background: rgba(0, 0, 0, 0.6);
   text-align: center;
 }
-
 .main-Container .container .signImg .caro4 .quotesContainer .quotes {
   margin-bottom: 10px;
 }
-
 .main-Container .container .signImg .caro4 .quotesContainer .quotes h3 {
   line-height: 25px;
   font-family: "SourceRegular";
@@ -161,14 +139,12 @@
   text-align: left;
   letter-spacing: 0.7px;
 }
-
 .main-Container .container .signImg .caro4 .quotesContainer .quoteBy p {
   font-size: 12px;
   font-family: "SourceRegular";
   text-align: left;
   color: #fff;
 }
-
 .main-Container .container .signIn {
   background: #fff;
   width: 50%;
@@ -176,32 +152,26 @@
   align-items: center;
   justify-content: center;
 }
-
 .main-Container .container .signIn .siginIn-Form .img {
   width: 100%;
   text-align: center;
 }
-
 .main-Container .container .signIn .siginIn-Form .img img {
   max-width: 50%;
   margin-bottom: 20px;
 }
-
 .main-Container .container .signIn .siginIn-Form .text {
   text-align: center;
   margin-bottom: 50px;
 }
-
 .main-Container .container .signIn .siginIn-Form .text p {
   font-size: 15px;
   color: #A7A7A7;
   font-family: "SourceRegular";
 }
-
 .main-Container .container .signIn .siginIn-Form form {
   position: relative;
 }
-
 .main-Container .container .signIn .siginIn-Form form label {
   position: absolute;
   font-size: 15px;
@@ -212,7 +182,6 @@
   pointer-events: none;
   transition: all 0.3s ease;
 }
-
 .main-Container .container .signIn .siginIn-Form form label.slideUp {
   top: -8px;
   background: #fff;
@@ -220,31 +189,25 @@
   font-size: 13px;
   color: #4b312f;
 }
-
 .main-Container .container .signIn .siginIn-Form form input {
   width: 100%;
   padding: 15px 20px;
   border-radius: 4px;
 }
-
 .main-Container .container .signIn .siginIn-Form form input:focus {
   outline: none;
 }
-
 .main-Container .container .signIn .siginIn-Form form .input {
   position: relative;
   margin-bottom: 30px;
 }
-
 .main-Container .container .signIn .siginIn-Form form .input input {
   border: 1px solid #4b312f;
   font-size: 15px;
 }
-
 .main-Container .container .signIn .siginIn-Form form .input input.error {
   border: 1px solid red;
 }
-
 .main-Container .container .signIn .siginIn-Form form .input p {
   display: none;
   position: absolute;
@@ -253,7 +216,6 @@
   color: red;
   padding: 5px;
 }
-
 .main-Container .container .signIn .siginIn-Form form .input i {
   position: absolute;
   top: 40%;
@@ -262,23 +224,19 @@
   color: #A7A7A7;
   cursor: pointer;
 }
-
 .main-Container .container .signIn .siginIn-Form form .input i.active {
   color: #4b312f;
 }
-
 .main-Container .container .signIn .siginIn-Form form .fpass {
   float: right;
   margin-bottom: 20px;
 }
-
 .main-Container .container .signIn .siginIn-Form form .fpass a {
   font-family: "SourceRegular";
   font-size: 15px;
   color: #4b312f;
   text-decoration: none;
 }
-
 .main-Container .container .signIn .siginIn-Form form .login input {
   font-size: 15px;
   font-family: "SourceRegular";
@@ -288,7 +246,6 @@
   cursor: pointer;
   border: none;
 }
-
 .main-Container .container .signIn .siginIn-Form form .login input:hover {
   background: #3f2b2a;
 }
@@ -296,7 +253,6 @@
 .main-Container {
   display: flex;
 }
-
 .main-Container .studentSideBar {
   width: 25%;
   background: #4b312f;
@@ -306,7 +262,6 @@
   overflow-x: hidden;
   overflow-y: scroll;
 }
-
 .main-Container .studentSideBar .mapolyDetails {
   padding-left: 30px;
   padding-right: 30px;
@@ -314,23 +269,19 @@
   align-items: center;
   margin-bottom: 20px;
 }
-
 .main-Container .studentSideBar .mapolyDetails img {
   width: 20%;
   margin-right: 10px;
 }
-
 .main-Container .studentSideBar .mapolyDetails .details {
   width: 80%;
 }
-
 .main-Container .studentSideBar .mapolyDetails .details h3 {
   text-transform: uppercase;
   color: #fff;
   font-family: "SourceBold";
   line-height: 20px;
 }
-
 .main-Container .studentSideBar .studntDetails {
   padding-left: 30px;
   padding-right: 30px;
@@ -338,60 +289,49 @@
   align-items: center;
   margin-bottom: 20px;
 }
-
 .main-Container .studentSideBar .studntDetails .holdImage {
   width: 52px;
   height: 52px;
   margin-right: 10px;
 }
-
 .main-Container .studentSideBar .studntDetails .holdImage img {
   width: 52px;
   height: 52px;
   object-fit: cover;
   border-radius: 6px;
 }
-
 .main-Container .studentSideBar .studntDetails .details {
   width: 80%;
 }
-
 .main-Container .studentSideBar .studntDetails .details .name {
   font-size: 15px;
   font-family: "SourceBold";
   color: #fff;
   text-transform: uppercase;
 }
-
 .main-Container .studentSideBar .studntDetails .details .matricNo {
   font-size: 15px;
   font-family: "SourceBold";
   color: #ddd;
 }
-
 .main-Container .studentSideBar .studntDetails .details .level {
   font-size: 15px;
   font-family: "SourceSemiBold";
   color: #A7A7A7;
   text-transform: uppercase;
 }
-
 .main-Container .studentSideBar .studentDash .section {
   margin-bottom: 20px;
 }
-
 .main-Container .studentSideBar .studentDash .section .ndResult {
   display: none;
 }
-
 .main-Container .studentSideBar .studentDash .section .oldStudentResult {
   display: none;
 }
-
 .main-Container .studentSideBar .studentDash .section .externalStudentResult {
   display: none;
 }
-
 .main-Container .studentSideBar .studentDash .section h3 {
   padding-left: 30px;
   padding-right: 30px;
@@ -400,89 +340,72 @@
   font-size: 17px;
   margin-bottom: 10px;
 }
-
 .main-Container .studentSideBar .studentDash .section .iconDept {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
 .main-Container .studentSideBar .studentDash .section .iconDept.active {
   border-left: 6px solid #fff;
 }
-
 .main-Container .studentSideBar .studentDash .section .iconDept .text {
   display: flex;
   align-items: center;
   position: relative;
 }
-
 .main-Container .studentSideBar .studentDash .section .iconDept .text span {
   font-size: 20px;
   color: #ddd;
   margin-right: 20px;
 }
-
 .main-Container .studentSideBar .studentDash .section .iconDept .text li {
   list-style: none;
 }
-
 .main-Container .studentSideBar .studentDash .section .iconDept .text li a {
   text-decoration: none;
   font-size: 20px;
   font-family: "SourceSemiBold";
   color: #ddd;
 }
-
 .main-Container .studentSideBar .studentDash .section .iconDept .text li a.active {
   color: #fff;
 }
-
 .main-Container .studentSideBar .studentDash .section .iconDept .text .dept {
   font-size: 20px;
   font-family: "SourceSemiBold";
   color: #ddd;
 }
-
 .main-Container .studentSideBar .studentDash .section .iconDept .text h1.dept, .main-Container .studentSideBar .studentDash .section .iconDept .text .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo h2.dept, .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .main-Container .studentSideBar .studentDash .section .iconDept .text h2.dept {
   text-transform: uppercase;
 }
-
 .main-Container .studentSideBar .studentDash .section .iconDept .text.active span, .main-Container .studentSideBar .studentDash .section .iconDept .text.active h1, .main-Container .studentSideBar .studentDash .section .iconDept .text.active .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo h2, .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .main-Container .studentSideBar .studentDash .section .iconDept .text.active h2 {
   color: #fff;
 }
-
 .main-Container .studentSideBar .studentDash .section .iconDept .tmust span, .main-Container .studentSideBar .studentDash .section .iconDept .tmust .dept {
   color: #f3f3f3;
   text-transform: capitalize !important;
 }
-
 .main-Container .studentSideBar .studentDash .section .levels {
   margin-bottom: 20px;
 }
-
 .main-Container .studentSideBar .studentDash .section .levels .second {
   position: absolute;
   left: 8px;
 }
-
 .main-Container .studentSideBar .studentDash .section .levels li {
   padding-left: 80px;
   list-style-type: none;
 }
-
 .main-Container .studentSideBar .studentDash .section .levels li a {
   color: #A7A7A7;
   text-decoration: none;
   font-family: "SourceRegular";
   font-size: 15px;
 }
-
 .main-Container .studentSideBar .studentDash .section .levels li a.active {
   color: #fff;
 }
-
 .main-Container .studentSideBar .logout {
   position: absolute;
   bottom: 0;
@@ -494,19 +417,16 @@
   justify-content: space-between;
   padding: 15px 20px;
 }
-
 .main-Container .studentSideBar .logout h2 {
   color: #4b312f;
   font-family: "SourceBold";
   font-size: 18px;
 }
-
 .main-Container .studentSideBar .logout span {
   font-size: 25px;
   color: #4b312f;
   cursor: pointer;
 }
-
 .main-Container .bodyDetails {
   width: 75%;
   height: 100vh;
@@ -516,11 +436,9 @@
   justify-content: center;
   margin-left: 25%;
 }
-
 .main-Container .bodyDetails .detailsContainer {
   width: 80%;
 }
-
 .main-Container .bodyDetails .detailsContainer .mapDetails {
   width: 100%;
   display: flex;
@@ -529,35 +447,29 @@
   flex-direction: column;
   margin-bottom: 20px;
 }
-
 .main-Container .bodyDetails .detailsContainer .mapDetails img {
   width: 20%;
 }
-
 .main-Container .bodyDetails .detailsContainer .mapDetails h1, .main-Container .main-Containers .bodyDetails .detailsContainer .mapDetails .detailContainer .updateInfo .lInfo h2, .main-Containers .main-Container .bodyDetails .detailsContainer .mapDetails .detailContainer .updateInfo .lInfo h2, .main-Container .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .detailsContainer .mapDetails h2, .main-Containers .main-Container .bodyDetails .detailContainer .updateInfo .lInfo .detailsContainer .mapDetails h2 {
   text-align: center;
   font-size: 70px;
   color: #4b312f;
   font-family: "SourceBold";
 }
-
 .main-Container .bodyDetails .detailsContainer .mapDetails h2 {
   font-size: 25px;
   font-family: "SourceBold";
   color: #A7A7A7;
 }
-
 .main-Container .bodyDetails .detailsContainer .mapDetails p {
   font-size: 20px;
   font-family: "SourceBold";
   color: #A7A7A7;
 }
-
 .main-Container .bodyDetails .detailsContainer .desc {
   width: 60%;
   margin: 0 auto;
 }
-
 .main-Container .bodyDetails .detailsContainer .desc p {
   font-size: 15px;
   font-family: "SourceRegular";
@@ -574,7 +486,6 @@
   overflow-x: hidden;
   position: relative;
 }
-
 .bodyDetail .mainDetailsContainer {
   position: absolute;
   top: 50%;
@@ -582,7 +493,6 @@
   transform: translate(-50%, -50%);
   width: 80%;
 }
-
 .bodyDetail .mainDetailsContainer .mapDetails {
   width: 100%;
   display: flex;
@@ -591,78 +501,64 @@
   flex-direction: column;
   margin-bottom: 20px;
 }
-
 .bodyDetail .mainDetailsContainer .mapDetails img {
   width: 20%;
 }
-
 .bodyDetail .mainDetailsContainer .mapDetails h1, .bodyDetail .mainDetailsContainer .mapDetails .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo h2, .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .bodyDetail .mainDetailsContainer .mapDetails h2 {
   text-align: center;
   font-size: 70px;
   color: #4b312f;
   font-family: "SourceBold";
 }
-
 .bodyDetail .mainDetailsContainer .mapDetails h2 {
   font-size: 25px;
   font-family: "SourceBold";
   color: #A7A7A7;
 }
-
 .bodyDetail .mainDetailsContainer .mapDetails p {
   font-size: 20px;
   font-family: "SourceBold";
   color: #A7A7A7;
 }
-
 .bodyDetail .mainDetailsContainer .desc {
   width: 60%;
   margin: 0 auto;
 }
-
 .bodyDetail .mainDetailsContainer .desc p {
   font-size: 15px;
   font-family: "SourceRegular";
   text-align: justify;
 }
-
 .bodyDetail .info {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-
 .bodyDetail .info img {
   max-width: 25%;
   color: #A7A7A7;
 }
-
 .bodyDetail .info h1, .bodyDetail .info .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo h2, .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .bodyDetail .info h2 {
   font-family: "SourceBold";
   font-size: 50px;
   color: #222;
 }
-
 .bodyDetail .info p {
   font-size: 16px;
   font-family: "SourceBold";
   color: #4b312f;
 }
-
 .bodyDetail .detailContainer {
   margin-top: 200px;
   margin-bottom: 50px;
 }
-
 .bodyDetail .detailContainer.stud {
   display: none;
 }
-
 .bodyDetail .detailContainer .dresult .schoolSemester {
   display: none;
 }
-
 .bodyDetail .detailContainer .dresult .session, .bodyDetail .main-Containers .bodyDetails .detailContainer .dresult .updateInfo, .main-Containers .bodyDetails .bodyDetail .detailContainer .dresult .updateInfo {
   margin-bottom: 20px;
   width: 100%;
@@ -672,8 +568,7 @@
   justify-content: space-between;
   background: #fff;
 }
-
-.bodyDetail .detailContainer .dresult .session h1, .bodyDetail .main-Containers .bodyDetails .detailContainer .dresult .updateInfo h1, .main-Containers .bodyDetails .bodyDetail .detailContainer .dresult .updateInfo h1, .bodyDetail .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .dresult .session h2, .main-Containers .bodyDetails .bodyDetail .detailContainer .updateInfo .lInfo .dresult .session h2, .bodyDetail .main-Containers .bodyDetails .detailContainer .dresult .updateInfo .lInfo h2, .main-Containers .bodyDetails .bodyDetail .detailContainer .dresult .updateInfo .lInfo h2 {
+.bodyDetail .detailContainer .dresult .session h1, .bodyDetail .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .dresult .session h2, .main-Containers .bodyDetails .bodyDetail .detailContainer .updateInfo .lInfo .dresult .session h2, .bodyDetail .main-Containers .bodyDetails .detailContainer .dresult .updateInfo h1, .bodyDetail .main-Containers .bodyDetails .detailContainer .dresult .updateInfo .lInfo h2, .main-Containers .bodyDetails .bodyDetail .detailContainer .dresult .updateInfo h1, .main-Containers .bodyDetails .bodyDetail .detailContainer .dresult .updateInfo .lInfo h2 {
   text-align: center;
   padding: 10px 15px;
   border-radius: 5px;
@@ -681,22 +576,18 @@
   font-family: "SourceBold";
   font-size: 14px;
 }
-
-.bodyDetail .detailContainer .dresult .session h1 span, .bodyDetail .main-Containers .bodyDetails .detailContainer .dresult .updateInfo h1 span, .main-Containers .bodyDetails .bodyDetail .detailContainer .dresult .updateInfo h1 span, .bodyDetail .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .dresult .session h2 span, .main-Containers .bodyDetails .bodyDetail .detailContainer .updateInfo .lInfo .dresult .session h2 span, .bodyDetail .main-Containers .bodyDetails .detailContainer .dresult .updateInfo .lInfo h2 span, .main-Containers .bodyDetails .bodyDetail .detailContainer .dresult .updateInfo .lInfo h2 span {
+.bodyDetail .detailContainer .dresult .session h1 span, .bodyDetail .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .dresult .session h2 span, .main-Containers .bodyDetails .bodyDetail .detailContainer .updateInfo .lInfo .dresult .session h2 span, .bodyDetail .main-Containers .bodyDetails .detailContainer .dresult .updateInfo h1 span, .bodyDetail .main-Containers .bodyDetails .detailContainer .dresult .updateInfo .lInfo h2 span, .main-Containers .bodyDetails .bodyDetail .detailContainer .dresult .updateInfo h1 span, .main-Containers .bodyDetails .bodyDetail .detailContainer .dresult .updateInfo .lInfo h2 span {
   text-transform: capitalize;
 }
-
 .bodyDetail .detailContainer .dresult .fail {
   background: #fff;
   border-radius: 5px;
   margin-bottom: 15px;
   display: none;
 }
-
 .bodyDetail .detailContainer .dresult .fail table {
   width: 100%;
 }
-
 .bodyDetail .detailContainer .dresult .fail table tr td {
   text-align: left;
   padding: 15px;
@@ -706,17 +597,14 @@
   font-weight: 500;
   font-size: 12px;
 }
-
 .bodyDetail .detailContainer .dresult .result {
   background: #fff;
   border-radius: 5px;
 }
-
 .bodyDetail .detailContainer .dresult .result table {
   width: 100%;
   border-collapse: collapse;
 }
-
 .bodyDetail .detailContainer .dresult .result table th {
   background: #4b312f;
   padding: 15px 15px;
@@ -725,15 +613,12 @@
   text-align: left;
   font-size: 13px;
 }
-
 .bodyDetail .detailContainer .dresult .result table th:first-child {
   border-radius: 5px 0 0 0;
 }
-
 .bodyDetail .detailContainer .dresult .result table th:last-child {
   border-radius: 0 5px 0 0;
 }
-
 .bodyDetail .detailContainer .dresult .result table tr td {
   text-align: left;
   padding: 15px;
@@ -743,11 +628,9 @@
   font-weight: 500;
   font-size: 12px;
 }
-
 .bodyDetail .detailContainer .dresult .result table tr:not(:last-child) {
   border-bottom: 1px solid #ddd;
 }
-
 .bodyDetail .detailContainer .dresult .resultstatus {
   width: 100%;
   display: flex;
@@ -759,24 +642,20 @@
   border-radius: 0 0 5px 5px;
   margin-bottom: 20px;
 }
-
 .bodyDetail .detailContainer .dresult .resultstatus div {
   font-family: "SourceBold";
   color: #4b312f;
   font-size: 15px;
 }
-
 .bodyDetail .detailContainer .outergradesystem {
   width: 100%;
   display: flex;
   position: relative;
 }
-
 .bodyDetail .detailContainer .outergradesystem .printResult {
   width: calc(100% - 300px);
   position: relative;
 }
-
 .bodyDetail .detailContainer .outergradesystem .printResult button {
   background: #4b312f;
   cursor: pointer;
@@ -792,11 +671,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .bodyDetail .detailContainer .outergradesystem .printResult button:hover {
   background: #3f2b2a;
 }
-
 .bodyDetail .detailContainer .outergradesystem .gradesystem {
   width: 300px;
   background: #fff;
@@ -806,24 +683,20 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
 .bodyDetail .detailContainer .outergradesystem .gradesystem .gd {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
 .bodyDetail .detailContainer .outergradesystem .gradesystem .gd h1, .bodyDetail .main-Containers .bodyDetails .detailContainer .outergradesystem .gradesystem .gd .updateInfo .lInfo h2, .main-Containers .bodyDetails .bodyDetail .detailContainer .outergradesystem .gradesystem .gd .updateInfo .lInfo h2, .bodyDetail .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .outergradesystem .gradesystem .gd h2, .main-Containers .bodyDetails .bodyDetail .detailContainer .updateInfo .lInfo .outergradesystem .gradesystem .gd h2 {
   font-size: 13px;
   font-family: "SourceRegular";
   color: #4b312f;
 }
-
 .bodyDetail .detailContainer .outergradesystem .gradesystem table {
   width: 100%;
   padding-left: 10px;
 }
-
 .bodyDetail .detailContainer .outergradesystem .gradesystem table tr td {
   font-size: 12px;
   font-family: "SourceRegular";
@@ -843,11 +716,9 @@
   overflow-x: hidden;
   background: #f3f3f3;
 }
-
 .main-Containers.active {
   height: auto;
 }
-
 .main-Containers .lecturerSideBar {
   width: 25vw;
   height: 100%;
@@ -857,7 +728,6 @@
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
 .main-Containers .lecturerSideBar .mapolyDetails {
   padding-left: 30px;
   padding-right: 30px;
@@ -865,23 +735,19 @@
   align-items: center;
   margin-bottom: 20px;
 }
-
 .main-Containers .lecturerSideBar .mapolyDetails img {
   width: 20%;
   margin-right: 10px;
 }
-
 .main-Containers .lecturerSideBar .mapolyDetails .details {
   width: 80%;
 }
-
 .main-Containers .lecturerSideBar .mapolyDetails .details h3 {
   text-transform: uppercase;
   color: #fff;
   font-family: "SourceBold";
   line-height: 20px;
 }
-
 .main-Containers .lecturerSideBar .lecturerDetails {
   padding-left: 30px;
   padding-right: 30px;
@@ -889,48 +755,40 @@
   align-items: center;
   margin-bottom: 20px;
 }
-
 .main-Containers .lecturerSideBar .lecturerDetails .holdImage {
   width: 52px;
   height: 52px;
   margin-right: 10px;
 }
-
 .main-Containers .lecturerSideBar .lecturerDetails .holdImage img {
   width: 52px;
   height: 52px;
   object-fit: cover;
   border-radius: 6px;
 }
-
 .main-Containers .lecturerSideBar .lecturerDetails .details {
   width: 80%;
 }
-
 .main-Containers .lecturerSideBar .lecturerDetails .details .name {
   font-size: 15px;
   font-family: "SourceBold";
   color: #fff;
   text-transform: uppercase;
 }
-
 .main-Containers .lecturerSideBar .lecturerDetails .details .matricNo {
   font-size: 15px;
   font-family: "SourceBold";
   color: #ddd;
 }
-
 .main-Containers .lecturerSideBar .lecturerDetails .details .level {
   font-size: 15px;
   font-family: "SourceSemiBold";
   color: #A7A7A7;
   text-transform: uppercase;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section {
   margin-bottom: 20px;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section h3 {
   padding-left: 30px;
   padding-right: 30px;
@@ -939,84 +797,68 @@
   font-size: 17px;
   margin-bottom: 10px;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section .iconDept {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section .iconDept.active {
   border-left: 6px solid #fff;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section .iconDept .text {
   display: flex;
   align-items: center;
   position: relative;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section .iconDept .text span {
   font-size: 20px;
   color: #ddd;
   margin-right: 20px;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section .iconDept .text li {
   list-style: none;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section .iconDept .text li a {
   text-decoration: none;
   font-size: 20px;
   font-family: "SourceSemiBold";
   color: #ddd;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section .iconDept .text li a.active {
   color: #fff;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section .iconDept .text .dept {
   font-size: 20px;
   font-family: "SourceSemiBold";
   color: #ddd;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section .iconDept .text.active span, .main-Containers .lecturerSideBar .lecturerDash .section .iconDept .text.active h1, .main-Containers .lecturerSideBar .lecturerDash .section .iconDept .text.active .bodyDetails .detailContainer .updateInfo .lInfo h2, .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .lecturerSideBar .lecturerDash .section .iconDept .text.active h2 {
   color: #fff;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section .iconDept .tmust span, .main-Containers .lecturerSideBar .lecturerDash .section .iconDept .tmust .dept {
   color: #f3f3f3;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section .levels {
   margin-bottom: 20px;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section .levels .second {
   position: absolute;
   left: 8px;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section .levels li {
   padding-left: 80px;
   list-style-type: none;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section .levels li a {
   color: #A7A7A7;
   text-decoration: none;
   font-family: "SourceRegular";
   font-size: 15px;
 }
-
 .main-Containers .lecturerSideBar .lecturerDash .section .levels li a.active {
   color: #fff;
 }
-
 .main-Containers .lecturerSideBar .logout {
   bottom: 0;
   width: 100%;
@@ -1027,30 +869,25 @@
   justify-content: space-between;
   padding: 15px 20px;
 }
-
 .main-Containers .lecturerSideBar .logout h2 {
   color: #4b312f;
   font-family: "SourceBold";
   font-size: 18px;
 }
-
 .main-Containers .lecturerSideBar .logout span {
   font-size: 25px;
   color: #4b312f;
   cursor: pointer;
 }
-
 .main-Containers .lecturerSideBar.notClicked {
   pointer-events: none;
 }
-
 .main-Containers .bodyDetails {
   width: 75vw;
   height: inherit;
   margin-left: 25vw;
   position: relative;
 }
-
 .main-Containers .bodyDetails .detailContainer {
   width: 80%;
   margin: 0 auto;
@@ -1058,7 +895,6 @@
   padding-bottom: 40px;
   display: none;
 }
-
 .main-Containers .bodyDetails .detailContainer .session, .main-Containers .bodyDetails .detailContainer .updateInfo {
   padding: 10px 15px;
   background: #fff;
@@ -1069,37 +905,31 @@
   margin-bottom: 20px;
   border-radius: 4px;
   text-transform: capitalize;
+  font-family: "SourceRegular";
 }
-
 .main-Containers .bodyDetails .detailContainer .session h1, .main-Containers .bodyDetails .detailContainer .updateInfo h1, .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo h2 {
   font-size: 13px;
   font-family: "SourceRegular";
   color: #222;
 }
-
 .main-Containers .bodyDetails .detailContainer .session.admin, .main-Containers .bodyDetails .detailContainer .admin.updateInfo {
   justify-content: center;
 }
-
-.main-Containers .bodyDetails .detailContainer .session.admin h1, .main-Containers .bodyDetails .detailContainer .admin.updateInfo h1, .main-Containers .bodyDetails .detailContainer .session.admin .updateInfo .lInfo h2, .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .session.admin h2, .main-Containers .bodyDetails .detailContainer .admin.updateInfo .lInfo h2 {
+.main-Containers .bodyDetails .detailContainer .session.admin h1, .main-Containers .bodyDetails .detailContainer .session.admin .updateInfo .lInfo h2, .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .session.admin h2, .main-Containers .bodyDetails .detailContainer .admin.updateInfo h1, .main-Containers .bodyDetails .detailContainer .admin.updateInfo .lInfo h2 {
   margin: 0 15px;
 }
-
 .main-Containers .bodyDetails .detailContainer .superadmin {
   display: flex;
   justify-content: space-between;
 }
-
 .main-Containers .bodyDetails .detailContainer .superadmin .session, .main-Containers .bodyDetails .detailContainer .superadmin .updateInfo {
   width: calc(100% - 300px);
   height: 40px;
   justify-content: center;
 }
-
-.main-Containers .bodyDetails .detailContainer .superadmin .session h1, .main-Containers .bodyDetails .detailContainer .superadmin .updateInfo h1, .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .superadmin .session h2, .main-Containers .bodyDetails .detailContainer .superadmin .updateInfo .lInfo h2 {
+.main-Containers .bodyDetails .detailContainer .superadmin .session h1, .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .superadmin .session h2, .main-Containers .bodyDetails .detailContainer .superadmin .updateInfo h1, .main-Containers .bodyDetails .detailContainer .superadmin .updateInfo .lInfo h2 {
   margin: 0 20px;
 }
-
 .main-Containers .bodyDetails .detailContainer .superadmin .changeSession {
   display: flex;
   align-items: center;
@@ -1108,14 +938,12 @@
   height: 40px;
   justify-content: right;
 }
-
 .main-Containers .bodyDetails .detailContainer .superadmin .changeSession h3 {
   font-family: "SourceBold";
   font-size: 13px;
   color: #222;
   margin-right: 20px;
 }
-
 .main-Containers .bodyDetails .detailContainer .superadmin .changeSession .year select {
   background: #fff;
   border-radius: 4px;
@@ -1124,15 +952,12 @@
   font-family: "SourceRegular";
   cursor: pointer;
 }
-
 .main-Containers .bodyDetails .detailContainer .superadmin .changeSession .year select option {
   font-family: "SourceRegular";
 }
-
 .main-Containers .bodyDetails .detailContainer .superadmin .changeSession .year select:focus {
   outline: none;
 }
-
 .main-Containers .bodyDetails .detailContainer .superadmin .changeSession .year button {
   cursor: pointer;
   outline: none;
@@ -1145,13 +970,11 @@
   background: #4b312f;
   display: none;
 }
-
 .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo {
   display: flex;
   justify-content: space-between;
   width: calc(100% - 450px);
 }
-
 .main-Containers .bodyDetails .detailContainer .updateInfo .search {
   width: 450px;
   display: flex;
@@ -1159,20 +982,17 @@
   position: relative;
   justify-content: center;
 }
-
 .main-Containers .bodyDetails .detailContainer .updateInfo .search .searchbox {
   position: relative;
   width: calc(100% - 50px);
   padding: 0 0 0 30px;
 }
-
 .main-Containers .bodyDetails .detailContainer .updateInfo .search .searchbox span {
   font-family: "SourceRegular";
   font-size: 15px;
   color: #A7A7A7;
   font-weight: 200;
 }
-
 .main-Containers .bodyDetails .detailContainer .updateInfo .search .searchbox input {
   position: absolute;
   display: none;
@@ -1185,7 +1005,6 @@
   left: 30px;
   top: -9px;
 }
-
 .main-Containers .bodyDetails .detailContainer .updateInfo .search button.searchBtn {
   width: 50px;
   height: 37px;
@@ -1196,33 +1015,26 @@
   cursor: pointer;
   font-size: 15px;
 }
-
 .main-Containers .bodyDetails .detailContainer .updateInfo .search button.searchBtn.active {
   background: #4b312f;
   color: #fff;
 }
-
 .main-Containers .bodyDetails .detailContainer .updateInfo .search button.searchBtn i.active::before {
   content: "\f00d";
 }
-
 .main-Containers .bodyDetails .detailContainer .updateInfo.superadmin {
   justify-content: center;
 }
-
 .main-Containers .bodyDetails .detailContainer .scoringTable {
   background: #fff;
 }
-
 .main-Containers .bodyDetails .detailContainer .scoringTable .calcGp {
   display: none;
 }
-
 .main-Containers .bodyDetails .detailContainer .scoringTable table {
   width: 100%;
   border-collapse: collapse;
 }
-
 .main-Containers .bodyDetails .detailContainer .scoringTable table th {
   background: #4b312f;
   padding: 15px 15px;
@@ -1231,15 +1043,12 @@
   text-align: left;
   font-size: 13px;
 }
-
 .main-Containers .bodyDetails .detailContainer .scoringTable table th:first-child {
   border-radius: 5px 0 0 0;
 }
-
 .main-Containers .bodyDetails .detailContainer .scoringTable table th:last-child {
   border-radius: 0 5px 0 0;
 }
-
 .main-Containers .bodyDetails .detailContainer .scoringTable table tr td {
   text-align: left;
   padding: 15px;
@@ -1249,7 +1058,6 @@
   font-weight: 500;
   font-size: 12px;
 }
-
 .main-Containers .bodyDetails .detailContainer .scoringTable table tr td input {
   width: 40px;
   padding: 5px;
@@ -1261,7 +1069,6 @@
   font-family: "SourceBold";
   pointer-events: none;
 }
-
 .main-Containers .bodyDetails .detailContainer .scoringTable table tr td button {
   width: 100px;
   border: none;
@@ -1273,25 +1080,20 @@
   font-size: 12px;
   cursor: pointer;
 }
-
 .main-Containers .bodyDetails .detailContainer .scoringTable table tr td button:hover {
   background: #3f2b2a;
 }
-
 .main-Containers .bodyDetails .detailContainer .scoringTable table tr td button.uploaded {
   background: #ddd;
   color: #4b312f;
   pointer-events: none;
 }
-
 .main-Containers .bodyDetails .detailContainer .scoringTable table tr td button.uploaded:hover {
   cursor: not-allowed;
 }
-
 .main-Containers .bodyDetails .detailContainer .scoringTable table tr:not(:last-child) {
   border-bottom: 1px solid #ddd;
 }
-
 .main-Containers .bodyDetails .mainDetailsContainer {
   position: absolute;
   top: 50%;
@@ -1299,7 +1101,6 @@
   transform: translate(-50%, -50%);
   width: 80%;
 }
-
 .main-Containers .bodyDetails .mainDetailsContainer .mapDetails {
   width: 100%;
   display: flex;
@@ -1308,41 +1109,34 @@
   flex-direction: column;
   margin-bottom: 20px;
 }
-
 .main-Containers .bodyDetails .mainDetailsContainer .mapDetails img {
   width: 20%;
 }
-
 .main-Containers .bodyDetails .mainDetailsContainer .mapDetails h1, .main-Containers .bodyDetails .mainDetailsContainer .mapDetails .detailContainer .updateInfo .lInfo h2, .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .mainDetailsContainer .mapDetails h2 {
   text-align: center;
   font-size: 70px;
   color: #4b312f;
   font-family: "SourceBold";
 }
-
 .main-Containers .bodyDetails .mainDetailsContainer .mapDetails h2 {
   font-size: 25px;
   font-family: "SourceBold";
   color: #A7A7A7;
 }
-
 .main-Containers .bodyDetails .mainDetailsContainer .mapDetails p {
   font-size: 20px;
   font-family: "SourceBold";
   color: #A7A7A7;
 }
-
 .main-Containers .bodyDetails .mainDetailsContainer .desc {
   width: 60%;
   margin: 0 auto;
 }
-
 .main-Containers .bodyDetails .mainDetailsContainer .desc p {
   font-size: 15px;
   font-family: "SourceRegular";
   text-align: justify;
 }
-
 .main-Containers .bodyDetails .detailsContainer {
   position: absolute;
   top: 50%;
@@ -1351,7 +1145,6 @@
   width: 80%;
   display: none;
 }
-
 .main-Containers .bodyDetails .scoreStudent {
   position: fixed;
   top: 0;
@@ -1360,7 +1153,6 @@
   background: rgba(0, 0, 0, 0.6);
   display: none;
 }
-
 .main-Containers .bodyDetails .scoreStudent .scores {
   position: absolute;
   top: 50%;
@@ -1375,16 +1167,13 @@
   align-items: center;
   justify-content: center;
 }
-
 .main-Containers .bodyDetails .scoreStudent .scores form {
   width: 100%;
 }
-
 .main-Containers .bodyDetails .scoreStudent .scores form .closeit {
   width: 100%;
   margin-bottom: 10px;
 }
-
 .main-Containers .bodyDetails .scoreStudent .scores form .closeit .close {
   margin-left: calc(100% - 40px);
   width: 40px;
@@ -1397,18 +1186,15 @@
   border-radius: 4px;
   cursor: pointer;
 }
-
 .main-Containers .bodyDetails .scoreStudent .scores form div {
   margin-bottom: 10px;
 }
-
 .main-Containers .bodyDetails .scoreStudent .scores form div p {
   font-family: "SourceRegular";
   font-size: 14px;
   color: #4b312f;
   margin-bottom: 5px;
 }
-
 .main-Containers .bodyDetails .scoreStudent .scores form div input.input {
   width: 100%;
   border-radius: 4px;
@@ -1416,34 +1202,27 @@
   color: #222;
   font-family: "SourceRegular";
 }
-
 .main-Containers .bodyDetails .scoreStudent .scores form div input.input.error {
   border: 1px solid red;
 }
-
 .main-Containers .bodyDetails .scoreStudent .scores form div:not(:last-child) {
   margin-bottom: 10px;
 }
-
 .main-Containers .bodyDetails .scoreStudent .scores form .stuFullname input, .main-Containers .bodyDetails .scoreStudent .scores form .stuMatric input {
   background: #ddd;
   border: none;
 }
-
 .main-Containers .bodyDetails .scoreStudent .scores form .sScore input {
   border: 1px solid #A7A7A7;
 }
-
 .main-Containers .bodyDetails .scoreStudent .scores form .sScore input:focus {
   outline: none;
 }
-
 .main-Containers .bodyDetails .scoreStudent .scores form .submitScore {
   width: 100%;
   text-align: center;
   margin-top: 20px;
 }
-
 .main-Containers .bodyDetails .scoreStudent .scores form .submitScore input {
   width: 120px;
   padding: 13px 0;
@@ -1455,7 +1234,6 @@
   border: none;
   cursor: pointer;
 }
-
 .main-Containers .bodyDetails .msgBoxBcg {
   position: fixed;
   width: 100%;
@@ -1464,7 +1242,6 @@
   background: rgba(0, 0, 0, 0.5);
   display: none;
 }
-
 .main-Containers .bodyDetails .msgBoxBcg .msgBox {
   position: absolute;
   top: 50%;
@@ -1477,23 +1254,19 @@
   border-radius: 5px;
   z-index: 2;
 }
-
 .main-Containers .bodyDetails .msgBoxBcg .msgBox .msg {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100px;
 }
-
 .main-Containers .bodyDetails .msgBoxBcg .msgBox .msg h3 {
   color: #222;
   font-family: "SourceRegular";
 }
-
 .main-Containers .bodyDetails .msgBoxBcg .btn {
   text-align: center;
 }
-
 .main-Containers .bodyDetails .msgBoxBcg .btn button {
   width: 80px;
   padding: 10px;
@@ -1506,25 +1279,21 @@
   border: none;
   cursor: pointer;
 }
-
 .main-Containers .bodyDetails .info {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-
 .main-Containers .bodyDetails .info img {
   max-width: 17%;
   color: #A7A7A7;
 }
-
 .main-Containers .bodyDetails .info h1, .main-Containers .bodyDetails .info .detailContainer .updateInfo .lInfo h2, .main-Containers .bodyDetails .detailContainer .updateInfo .lInfo .info h2 {
   font-family: "SourceBold";
   font-size: 35px;
   color: #222;
 }
-
 .main-Containers .bodyDetails .info p {
   font-size: 12px;
   font-family: "SourceBold";
@@ -1541,7 +1310,6 @@
   margin-left: 25%;
   overflow-x: hidden;
 }
-
 .bodySettings .detailContainer {
   width: 80%;
   background: #fff;
@@ -1552,7 +1320,6 @@
   justify-content: center;
   flex-direction: column;
 }
-
 .bodySettings .detailContainer .setrecord {
   display: flex;
   align-items: center;
@@ -1560,21 +1327,18 @@
   flex-direction: column;
   margin-bottom: 15px;
 }
-
 .bodySettings .detailContainer .setrecord h3 {
   font-family: "SourceBold";
   font-size: 16px;
   color: #4b312f;
   margin-right: 20px;
 }
-
 .bodySettings .detailContainer .setrecord .csession {
   display: flex;
   align-items: center;
   width: 330px;
   margin-bottom: 15px;
 }
-
 .bodySettings .detailContainer .setrecord .csession input {
   width: 135px;
   border: 1px solid #4b312f;
@@ -1583,18 +1347,15 @@
   font-size: 14px;
   font-weight: 500;
 }
-
 .bodySettings .detailContainer .setrecord .csession input:focus {
   outline: none;
 }
-
 .bodySettings .detailContainer .setrecord .csemester {
   display: flex;
   align-items: center;
   width: 330px;
   margin-bottom: 20px;
 }
-
 .bodySettings .detailContainer .setrecord .csemester select {
   background: #ddd;
   border-radius: 4px;
@@ -1602,15 +1363,12 @@
   border: none;
   font-family: "SourceRegular";
 }
-
 .bodySettings .detailContainer .setrecord .csemester select option {
   font-family: "SourceRegular";
 }
-
 .bodySettings .detailContainer .setrecord .csemester select:focus {
   outline: none;
 }
-
 .bodySettings .detailContainer .setrecord .setSession {
   background: #4b312f;
   cursor: pointer;
@@ -1635,7 +1393,6 @@ body {
   justify-content: center;
   overflow-x: hidden;
 }
-
 .mainContainers .coreRegContainer {
   width: 40%;
   padding: 20px 30px;
@@ -1645,12 +1402,10 @@ body {
   align-items: center;
   flex-direction: column;
 }
-
 .mainContainers .coreRegContainer .cheader {
   width: 350px;
   text-align: center;
 }
-
 .mainContainers .coreRegContainer .cheader p {
   font-size: 2em;
   color: #4b312f;
@@ -1658,21 +1413,17 @@ body {
   text-transform: capitalize;
   font-weight: 700;
 }
-
 .mainContainers .coreRegContainer .coreReg {
   padding: 10px;
 }
-
 .mainContainers .coreRegContainer .coreReg .cInput {
   width: 350px;
 }
-
 .mainContainers .coreRegContainer .coreReg .cInput p {
   margin-bottom: 5px;
   font-family: "SourceRegular";
   font-size: 14px;
 }
-
 .mainContainers .coreRegContainer .coreReg .cInput input {
   width: 350px;
   border: 1px solid #ddd;
@@ -1680,11 +1431,9 @@ body {
   padding: 10px 15px;
   margin-bottom: 10px;
 }
-
 .mainContainers .coreRegContainer .coreReg .cInput input:focus {
   outline: none;
 }
-
 .mainContainers .coreRegContainer .coreReg .cBtn button {
   width: 350px;
   cursor: pointer;
@@ -1697,30 +1446,25 @@ body {
   text-transform: uppercase;
   background: #4b312f;
 }
-
 .mainContainers .coreRegContainer .coreList {
   padding: 10px;
   display: none;
 }
-
 .mainContainers .coreRegContainer .coreList .sems {
   width: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .mainContainers .coreRegContainer .coreList .sems p {
   padding: 10px;
   font-family: "SourceRegular";
   font-size: 15px;
   text-transform: capitalize;
 }
-
 .mainContainers .coreRegContainer .coreList table {
   width: 350px;
 }
-
 .mainContainers .coreRegContainer .coreList table tr td {
   text-align: left;
   padding: 7px;
@@ -1730,7 +1474,6 @@ body {
   font-weight: 500;
   font-size: 13px;
 }
-
 .mainContainers .coreRegContainer .coreList table tr td button {
   background: #4b312f;
   cursor: pointer;
@@ -1743,23 +1486,19 @@ body {
   text-transform: uppercase;
   font-size: 12px;
 }
-
 .mainContainers .coreRegContainer .coreList table tr td button.active {
   background: #ddd;
   color: #4b312f;
   pointer-events: none;
 }
-
 .mainContainers .coreRegContainer .coreList table tr:not(:last-child) {
   border-bottom: 1px solid #ddd;
 }
-
 .mainContainers .coreRegContainer .coreList .sBtn {
   width: 350px;
   text-align: center;
   margin-top: 15px;
 }
-
 .mainContainers .coreRegContainer .coreList .sBtn button {
   background: #4b312f;
   cursor: pointer;
@@ -1772,22 +1511,18 @@ body {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-
 .mainContainers .coreRegContainer .coreList .sBtn p {
   font-family: "SourceRegular";
   color: #4b312f;
   font-size: 16px;
   cursor: pointer;
 }
-
 .mainContainers .coreRegContainer .errMsg {
   display: none;
 }
-
 .mainContainers .coreRegContainer .errMsg .sMsg {
   margin: 10px;
 }
-
 .mainContainers .coreRegContainer .errMsg .sMsg p {
   font-family: "SourceRegular";
   color: #4b312f;
@@ -1804,7 +1539,6 @@ body {
   background: rgba(0, 0, 0, 0.7);
   display: none;
 }
-
 .uResult .cResult {
   position: relative;
   width: 100%;
@@ -1813,7 +1547,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .uResult .cResult .result {
   width: 80%;
   background: #fff;
@@ -1821,12 +1554,10 @@ body {
   padding: 10px 15px;
   border-radius: 4px;
 }
-
 .uResult .cResult .result .closeBtn {
   margin-bottom: 15px;
   text-align: right;
 }
-
 .uResult .cResult .result .closeBtn button {
   background: #4b312f;
   cursor: pointer;
@@ -1838,7 +1569,6 @@ body {
   color: #fff;
   text-transform: uppercase;
 }
-
 .uResult .cResult .result .errorText {
   font-size: 20px;
   width: 100%;
@@ -1850,12 +1580,10 @@ body {
   font-weight: 700;
   display: none;
 }
-
 .uResult .cResult .result table {
   width: 100%;
   border-collapse: collapse;
 }
-
 .uResult .cResult .result table th {
   background: #4b312f;
   padding: 15px 15px;
@@ -1864,15 +1592,12 @@ body {
   text-align: left;
   font-size: 13px;
 }
-
 .uResult .cResult .result table th:first-child {
   border-radius: 5px 0 0 0;
 }
-
 .uResult .cResult .result table th:last-child {
   border-radius: 0 5px 0 0;
 }
-
 .uResult .cResult .result table tr td {
   text-align: left;
   padding: 15px;
@@ -1882,7 +1607,6 @@ body {
   font-weight: 500;
   font-size: 12px;
 }
-
 .uResult .cResult .result table tr td button {
   background: #4b312f;
   cursor: pointer;
@@ -1895,13 +1619,11 @@ body {
   text-transform: uppercase;
   font-size: 12px;
 }
-
 .uResult .cResult .result table tr td button.active {
   background: #ddd;
   color: #4b312f;
   pointer-events: none;
 }
-
 .uResult .cResult .result table tr:not(:last-child) {
   border-bottom: 1px solid #ddd;
 }
@@ -1927,7 +1649,6 @@ html {
   display: none;
   cursor: pointer;
 }
-
 .rmsgContainer .rmsg {
   display: flex;
   align-items: center;
@@ -1935,23 +1656,19 @@ html {
   width: 300px;
   padding: 15px 15px;
 }
-
 .rmsgContainer .rmsg .successbell span {
   font-size: 20px;
   color: #fff;
 }
-
 .rmsgContainer .rmsg .successbell span.active:before {
   content: "\f0a2";
 }
-
 .rmsgContainer .rmsg .notymsg p {
   font-size: 14px;
   font-family: "SourceRegular";
   color: #fff;
   text-transform: uppercase;
 }
-
 .rmsgContainer .rmsg .closenotyBtn button {
   cursor: pointer;
   outline: none;
@@ -1962,5 +1679,4 @@ html {
   color: #fff;
   text-transform: uppercase;
   background: transparent;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
