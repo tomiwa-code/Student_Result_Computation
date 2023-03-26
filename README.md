@@ -42,16 +42,16 @@ Open the control panel start Apache and MySQL
 
 Open chrome or any browser of your choice and type the link below
 
-```http://localhost/phpmyadmin
-
+```bash
+http://localhost/phpmyadmin
 ```
 
 ### **Create new table**
 
 Create a new table called
 
-```mapoly_result
-
+```
+mapoly_result
 ```
 
 ### **Table import**
@@ -62,8 +62,8 @@ Import all the tables provided in the tables folder (.sql)
 
 Open chrome or any browser of your choice and type the link below
 
-```http://localhost/student_result_computation/
-
+```bash
+http://localhost/student_result_computation/
 ```
 
 ### **Users credentials**
